@@ -14,18 +14,18 @@ def log_request(req: 'flask_request', res: str) -> None:
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
-    phrase = request.form['phrase']
-    letters = request.form['letters']
-    color = request.form['user_color']	#从entry.html模版（输入）取到变数名称user_color的值，存放在color这变数下
+    phrase = request.form['airport1']
+    letters = request.form['airport2']
+    	#从entry.html模版（输入）取到变数名称user_color的值，存放在color这变数下
     title = '以下是您的结果：'
-    results = search4letters(phrase, letters)
+    results = search4letters(airport1, airport2)
     log_request(request, results)
     return render_template('results.html',
                            the_title=title,
-                           the_phrase=phrase,
-                           the_letters=letters,
+                           the_airport1=airport1,
+                           the_airport2=airport2,
                            the_results=results,
-                           the_color=color,		#flask.render_template 函数把results.html模版（输出），其中模版中the_color的值，用color这变数之值
+                           	#flask.render_template 函数把results.html模版（输出），其中模版中the_color的值，用color这变数之值
                            )
 
 
