@@ -15,7 +15,7 @@ airport_distance_4web
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * [csv](https://github.com/minxur/airport-codes)
-* 
+
 ### 数据
 * [airport-codes.csv](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)
 
