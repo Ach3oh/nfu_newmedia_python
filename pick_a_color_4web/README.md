@@ -14,11 +14,10 @@ airport_distance_4web
 用户得到输出结果为：机场1 机场2之间的位移
 ## 从输入到输出，本组作品使用了：
 ### 模块
-* [csv](https://github.com/python-visualization/folium)
+* [csv](https://github.com/minxur/airport-codes)
 * 
 ### 数据
-* [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
-### API
+* [airport-codes.csv](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)
 无
 
 
