@@ -1,13 +1,13 @@
  # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
-from vsearch import search4letters
+from airport import search4letters
 
 app = Flask(__name__)
 
 
 def log_request(req: 'flask_request', res: str) -> None:
     """Log details of the web request and the results."""
-    with open('vsearch.log', 'a', encoding='utf8') as log:
+    with open('airport.log', 'a', encoding='utf8') as log:
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
 
 
@@ -41,7 +41,7 @@ def entry_page() -> 'html':
 def view_the_log() -> 'html':
     """Display the contents of the log file as a HTML table."""
     contents = []
-    with open('vsearch.log') as log:
+    with open('airport.log') as log:
         for line in log:
             contents.append([])
             for item in line.split('|'):
