@@ -17,7 +17,7 @@ airport4web
 * [csv](https://github.com/minxur/airport-codes)
 
 ### 数据
-* [airport-codes.csv](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)
+* [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
 
 ### API
 无
