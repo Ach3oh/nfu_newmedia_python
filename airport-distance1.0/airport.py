@@ -9,4 +9,4 @@ def search4prepositions_zhs(phrase: str) -> set:
 
 def search4letters(phrase: str, letters: str='') -> set:
     """Return a set of the 'letters' found in 'phrase'."""
-    return set(airport1).intersection(set(airport2))
+    return set(letters).intersection(set(phrase))
