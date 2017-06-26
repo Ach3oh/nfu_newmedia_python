@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/search4'>
+<table>
+<th colspan="2">使用此窗体搜索机场距离：</th>
+<tr><td>机场a：</td><td><input name='airport1' type='csv' width='60'></td></tr>
+<tr><td>机场b：</td><td><input name='airport2' type='csv' width='60'></td></tr>
+</table>
+<p>准备就绪后, 单击此按钮：</p>
+<p><input value='搞吧！' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
