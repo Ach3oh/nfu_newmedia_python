@@ -46,7 +46,7 @@ def do_search() -> 'html':
 
 @app.route('/')
 @app.route('/entry')
-def entry_page() -> 'html':
+def entry_page() -> 'html':#定义函数
     """Display this webapp's HTML form."""
     return render_template('entry.html',
                            the_title='欢迎来到网上 机场经纬度查询器')
