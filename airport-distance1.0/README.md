@@ -19,6 +19,7 @@ airport4web
 * [json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/Untitled.ipynb)
 ### 数据
 * [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
+* [json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/dict.json)
 ### API
 无
 ## Web App动作描述
@@ -29,7 +30,7 @@ airport4web
 
 2. 前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
-3. 後端伺服器web 响应：[airport4web.py](airport4web.py) 中 执行 了@app.route('/') 下的 do_search()函数，以HTML模版[templates/entry.html](templates/entry.html)及两个机场名称（见代码 the_airport1=x,the_airport2=xx,）产出的产生《欢迎来到网上 机场经纬度查询器》的HTML页面
+3. 後端伺服器web 响应：[airport4web.py](airport4web.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及两个机场名称（见代码 the_airport1=x,the_airport2=xx,）产出的产生《欢迎来到网上 机场经纬度查询器》的HTML页面
 
 4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'x和xx'，使用了HTML5的datalist 定义在 list="airport1、airport2" 及 datalist标签，详见HTML模版[templates/entry.html](templates/entry.html)
 
