@@ -16,7 +16,7 @@ airport4web
 ## 从输入到输出，除了flask模块，本组作品使用了：
 ### 模块
 * [csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport_codes.ipynb)
-* [json](https://github.com/minxur/airport-codes)
+* [json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/Untitled.ipynb)
 ### 数据
 * [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
 ### API
