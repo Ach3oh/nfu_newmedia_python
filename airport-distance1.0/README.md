@@ -19,7 +19,7 @@ airport4web
 * [json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/Untitled.ipynb)
 ### 数据
 * [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
-* [json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/dict.json)
+* [dict.json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/dict.json)
 ### API
 无
 ## Web App动作描述
