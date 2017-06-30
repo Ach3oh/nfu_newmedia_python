@@ -13,7 +13,7 @@ def log_request(req: 'flask_request', res: str) -> None:#定义函数
 
 
 @app.route('/search4', methods=['POST'])
-def do_search() -> 'html':
+def do_search() -> 'html':#定义函数
     """Extract the posted data; perform the search; return results."""
     x = request.form['airport1']
     xx = request.form['airport2']
@@ -62,7 +62,7 @@ def view_the_log() -> 'html':#定义函数
             for item in line.split('|'):
                 contents[-1].append(escape(item))
     titles = ('表单内容', '访问者IP', '浏览器', '运行结果')
-    return render_template('viewlog.html',
+    return render_template('viewlog.html',#返回
                            the_title='查看日志',
                            the_row_titles=titles,
                            the_data=contents,)
