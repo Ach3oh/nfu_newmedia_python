@@ -3,7 +3,7 @@ airport4web
 
 
 # 简介 
-输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场间的里程。数据来源于？？？json档。
+输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场间的里程。数据来源于Github用户的资料。
 操练Python语言开发练习：使用flask
 
 
@@ -19,7 +19,6 @@ airport4web
 * [json](https://github.com/minxur/airport-codes)
 ### 数据
 * [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
-
 ### API
 无
 
