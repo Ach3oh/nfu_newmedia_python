@@ -15,7 +15,7 @@ airport4web
 通过输入两个不同的机场名，用户得到输出结果为：两个机场间的里程
 ## 从输入到输出，除了flask模块，本组作品使用了：
 ### 模块
-* [csv](https://github.com/minxur/airport-codes)
+* [csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport_codes.ipynb)
 * [json](https://github.com/minxur/airport-codes)
 ### 数据
 * [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
