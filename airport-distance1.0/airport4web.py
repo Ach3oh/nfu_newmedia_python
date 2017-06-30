@@ -21,8 +21,8 @@ def do_search() -> 'html':#定义函数
     with open('dict.json','r') as file:#打开文件
      r = json.load(file)
 #根据公式计算里程
-    y1 = r[x]
-    y2 = r[xx]
+    y1 = r[x]#输入第一个机场名
+    y2 = r[xx]#输入第二个机场名
     yy1 = y1.split(',')
     yy2 = y2.split(',')
     dista = float(yy1[0]) - float(yy2[0])
