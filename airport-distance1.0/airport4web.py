@@ -20,7 +20,7 @@ def do_search() -> 'html':
     
     with open('dict.json','r') as file:#打开文件
      r = json.load(file)
-
+#根据公式计算里程
     y1 = r[x]
     y2 = r[xx]
     yy1 = y1.split(',')
