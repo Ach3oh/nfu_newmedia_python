@@ -1,13 +1,14 @@
  # -*- coding: utf-8 -*- 
+ #引用模块
 from flask import Flask, render_template, request, escape
 from airport import search4letters
 import json
 app = Flask(__name__)
 
 
-def log_request(req: 'flask_request', res: str) -> None:
+def log_request(req: 'flask_request', res: str) -> None:#定义函数
     """Log details of the web request and the results."""
-    with open('airport.log', 'a', encoding='utf8') as log:
+    with open('airport.log', 'a', encoding='utf8') as log:#打开文件
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
 
 
@@ -17,7 +18,7 @@ def do_search() -> 'html':
     x = request.form['airport1']
     xx = request.form['airport2']
     
-    with open('dict.json','r') as file:
+    with open('dict.json','r') as file:#打开文件
      r = json.load(file)
 
     y1 = r[x]
@@ -52,10 +53,10 @@ def entry_page() -> 'html':
 
 
 @app.route('/viewlog')
-def view_the_log() -> 'html':
+def view_the_log() -> 'html':#定义函数
     """Display the contents of the log file as a HTML table."""
     contents = []
-    with open('airport.log') as log:
+    with open('airport.log') as log:#打开文件
         for line in log:
             contents.append([])
             for item in line.split('|'):
