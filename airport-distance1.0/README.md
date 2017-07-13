@@ -1,6 +1,7 @@
-airport4web
+airport-distance1.0
 
-
+英文项目名称airport-distance1.0，airport代指的是机场的名称，distance代指的是机场之间的里程，1.0指的是第一代
+即查询俩个机场之间的里程距离。
 
 # 简介 
 输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场间的里程。数据来源于Github用户的资料。
