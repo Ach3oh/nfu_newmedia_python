@@ -4,7 +4,7 @@ airport-distance1.0
 即查询俩个机场之间的里程距离。
 
 # 简介 
-全世界机场间里程查询，输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场的名字以及它们之间的里程，共可查询46,235个机场资料，数据来源于[教师提供]（https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv）的CSV档。
+全世界机场间里程查询，输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场的名字以及它们之间的里程，共可查询46,235个机场资料，数据来源于[教师提供](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)的CSV档。
 
 
 
