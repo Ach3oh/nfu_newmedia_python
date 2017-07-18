@@ -45,11 +45,5 @@ airport-distance1.0
 8. 前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到输入的两个机场间的里程。
 
 ## 作者成员：
-见[_team_.tsv](_team_/_team_.tsv)  
-Ach3oh    
-minxur    
-achac   
-929384921   
-HTGchouse   
-xiekunxin   
+见[_team_.tsv](_team_/_team_.tsv)    
   
