@@ -4,7 +4,7 @@ airport-distance1.0
 即查询俩个机场之间的里程距离。
 
 # 简介 
-全世界机场间里程查询，输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场的名字以及它们之间的里程，共可查询46,235个机场资料，数据来源于[教师提供](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)的CSV档。
+全世界机场间里程查询，输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场的名字以及它们之间的里程，共可查询46,235个机场资料，数据来源于[GitHub用户](https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv)的CSV档,资料大小为4.5 MB。
 
 
 
@@ -18,8 +18,8 @@ airport-distance1.0
 * [csv](http://www.cnblogs.com/nisen/p/6155492.html)
 * [json](http://www.runoob.com/json/json-tutorial.html)
 ### 数据
-* [airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
-* [dict.json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/dict.json)
+* 从GitHub用户上，获取机场资料保存到本地。资料大小为4.5MB。[airport-codes.csv](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/airport-codes.csv)
+* 从csv档导出来的json档资料，大小为2.25MB。[dict.json](https://github.com/Ach3oh/nfu_newmedia_python/blob/master/airport-distance1.0/dict.json)
 ### API
 无
 ## Web App动作描述
