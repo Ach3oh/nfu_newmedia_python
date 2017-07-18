@@ -5,6 +5,10 @@ from airport import search4letters
 import json
 app = Flask(__name__)
 
+with open('dict.json','r',encoding='utf8') as fp:
+    r=json.load(fp)
+F=list(r.keys())
+F.remove('name')
 
 def log_request(req: 'flask_request', res: str) -> None:#定义函数
     """Log details of the web request and the results."""
@@ -49,7 +53,8 @@ def do_search() -> 'html':#定义函数
 def entry_page() -> 'html':#定义函数
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上 机场经纬度查询器')
+                           the_title='欢迎来到网上 机场经纬度查询器',
+                            F_list=F)
 
 
 @app.route('/viewlog')
