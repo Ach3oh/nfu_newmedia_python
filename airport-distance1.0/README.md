@@ -4,8 +4,7 @@ airport-distance1.0
 即查询俩个机场之间的里程距离。
 
 # 简介 
-输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场间的里程。数据来源于Github用户的资料。
-操练Python语言开发练习：使用flask
+全世界机场间里程查询，输入方面用户可输入想查询里程的两个任意机场的英文名，输出方面则是这两个任意机场的名字以及它们之间的里程，共可查询46,235个机场资料，数据来源于[教师提供]（https://github.com/minxur/airport-codes/blob/master/data/airport-codes.csv）的CSV档。
 
 
 
@@ -33,7 +32,7 @@ airport-distance1.0
 
 3. 後端伺服器web 响应：[airport4web.py](airport4web.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及两个机场名称（见代码 the_airport1=x,the_airport2=xx,）产出的产生《欢迎来到网上 机场经纬度查询器》的HTML页面
 
-4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'x和xx'，使用了HTML5的datalist 定义在 list="airport1、airport2" 及 datalist标签，详见HTML模版[templates/entry.html](templates/entry.html)
+4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'x和xx'，使用了list="airport1、airport2"，详见HTML模版[templates/entry.html](templates/entry.html)
 
 5. 前端浏览器web 请求：用户选取指标後按了提交钮「搞吧！」，则产生新的web 请求，按照form元素中定义的method='POST' action='/search4'，以POST为方法，动作为/search4的web 请求
 
